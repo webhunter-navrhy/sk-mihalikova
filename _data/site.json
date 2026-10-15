@@ -1,0 +1,51 @@
+{
+  "slug": "sk-mihalikova",
+  "nazev": "JUDr. Mária Miháliková",
+  "url": "https://webhunter-navrhy.github.io/sk-mihalikova/",
+  "base": "/sk-mihalikova/",
+  "lang": "sk",
+  "popis": "Advokátska kancelária JUDr. Márie Mihálikovej v Žiline: občianske, rodinné, pracovné, obchodné a trestné právo, právo nehnuteľností a vymáhanie pohľadávok.",
+  "navrh": true,
+  "domena": "",
+  "og_image": "logo-og.png",
+  "logo": "logo.png",
+  "theme_color": "#4d1113",
+  "typ": "LocalBusiness",
+  "ico": "42066441",
+  "kontakt": {
+    "email": "mihalikova@advokat-mihalikova.sk",
+    "telefon": "+421 907 363 875",
+    "adresa": {
+      "ulice": "Pivovarská 8140/16",
+      "psc": "010 01",
+      "mesto": "Žilina",
+      "zeme": "SK"
+    }
+  },
+  "oteviraci_doba": [],
+  "sameas": [],
+  "cenove_rozpeti": "",
+  "formular": {
+    "endpoint": "",
+    "demo": true,
+    "predmet": "Správa z webu"
+  },
+  "nav": [
+    {
+      "text": "Oblasti práva",
+      "href": "#oblasti"
+    },
+    {
+      "text": "Advokátka",
+      "href": "#advokatka"
+    },
+    {
+      "text": "Odmena",
+      "href": "#odmena"
+    },
+    {
+      "text": "Kontakt",
+      "href": "#kontakt"
+    }
+  ]
+}

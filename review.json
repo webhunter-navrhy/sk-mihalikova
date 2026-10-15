@@ -1,0 +1,16 @@
+{
+  "znamka": 6,
+  "slabiny": [
+    "Koncept a typografie (celá stránka, PC i mobil): myšlienka „Spis“ sa prejavuje len číslovaním. Web tak pôsobí ako čistý textový dokument v systémovej Georgii bez akéhokoľvek vizuálneho bodu a hrozí výčitka „jednoduchej, nezajímavej, je poznat že je AI“. Číslovanie sa navyše opakuje trikrát: zásady 1.–5. v hero, oblasti 01–09 a riadky odmeny. Oprava: Georgiu nahradiť webfontom s overenými háčkami (napr. Source Serif 4 na nadpisy a ľahký sans na text). Symbol váh z loga prekresliť ako veľkú tenkú vínovú perokresbu do pravej polovice hero, kde dnes stojí zoznam zásad. Zásady presunúť pod hero ako jeden riadok piatich slov oddelených linkou, bez čísel. Čísla 01–09 v Oblastiach práva odstrániť, alebo ich nahradiť skutočnou „spisovou“ značkou (štítok, záložka), aby koncept bolo vidieť aj vizuálne.",
+    "Pravdivosť (vínový pruh pod hero, sekcia Advokátka, Kontakt a JSON-LD): „Zapísaná v zozname SAK, licencia č. 4922“, „IČO 42066441“, štúdium „Trnavská univerzita 1999–2004“, „Katastrálny úrad v Žiline“ a štyri druhy odmeny vrátane „najviac 20 %“ nemajú zdroj v brief.json. Brief má IČO prázdne a v poli „chybi“ uvádza IČO aj potvrdenie služieb. Oprava: každý údaj doložiť do briefu so zdrojom (podstránka advokat-mihalikova.sk, register SAK, ORSR/RPO). Čo sa doložiť nedá, z pruhu, kontaktu aj z JSON-LD v site.json (pole ico) odstrániť.",
+    "Rytmus a mobil (Oblasti práva, Odmena, hero na 390 px): deväť rovnakých riadkov akordeónu, z ktorých je otvorený len prvý, a hneď za nimi rovnaký zoznam s linkami v Odmene dávajú dve monotónne sekcie po sebe. Na mobile má hero asi 1,5 obrazovky, lebo vínový pruh odsunie zoznam zásad. Telefón a e-mail sú podčiarknuté odkazy vysoké 16 px (QA: tri dotykové ciele pod 40 px). Oprava: Oblasti na PC zobraziť ako mriežku 3×3 s nadpisom a 2–3 položkami (rozbaľovanie nechať len na mobile). Odmenu dať do 2×2 dlaždíc s jemným orámovaním. Na mobile v hero zobraziť hneď pod CTA dve tlačidlá vysoké aspoň 44 px („Zavolať“ s tel:, „Napísať e-mail“) a zásady presunúť pod hero."
+  ],
+  "silne": [
+    "Logo klienta je celé a ostré vľavo v hlavičke a paleta vychádza z jeho vínovej #4d1113, takže brand sedí.",
+    "Na žiadnej šírke nič nepretéká, stránka má 0,08 MB a hierarchia nadpisov je jasná.",
+    "Texty vychádzajú z pôvodného webu (zásady, citát o záujme klienta, spolupráca s geodetmi a notármi) a tón je primerane diskrétny k advokácii.",
+    "Hlavná akcia „Napísať kancelárii“ a kontakty sú hneď v hero, formulár je jednoduchý."
+  ],
+  "verdikt": "opravit – brand a čistota sú v poriadku, ale web pôsobí ako upravený textový dokument bez atmosféry a obsahuje údaje bez zdroja v briefe. Pred odoslaním treba doložiť alebo odstrániť nedoložené údaje, pridať vizuálny prvok z loga a skvalitniť typografiu a rytmus sekcií.",
+  "_hash": "0ab352628e361421d6b8aa8d13d72bbf8136f033"
+}

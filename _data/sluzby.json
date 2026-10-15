@@ -1,0 +1,92 @@
+[
+ {
+  "nazev": "Občianske právo",
+  "body": [
+   "príprava a posudzovanie zmlúv (kúpna, darovacia, nájomná, o dielo, o pôžičke)",
+   "dedičské konanie, závet, dodatočné dedičské konanie",
+   "vysporiadanie podielového a bezpodielového spoluvlastníctva",
+   "náhrada škody, ochrana osobnosti, bezdôvodné obohatenie",
+   "autorské a licenčné zmluvy",
+   "zastupovanie v súdnych a exekučných konaniach"
+  ]
+ },
+ {
+  "nazev": "Právo nehnuteľností",
+  "body": [
+   "prevody nehnuteľností a zastupovanie v katastrálnom konaní",
+   "nájom bytov, nebytových priestorov a pozemkov",
+   "žaloby o určenie vlastníckeho práva, o vypratanie nehnuteľnosti",
+   "spoločenstvá vlastníkov bytov, správa bytového domu",
+   "vecné bremená, predkupné právo, záložné zmluvy",
+   "posúdenie právneho stavu pozemkov"
+  ]
+ },
+ {
+  "nazev": "Rodinné právo",
+  "body": [
+   "rozvod",
+   "úprava styku s maloletým",
+   "vyživovacia povinnosť",
+   "určenie a zapretie rodičovstva",
+   "pestúnska starostlivosť, poručníctvo, osvojenie",
+   "zastupovanie v konaní pred súdom v rodinných veciach"
+  ]
+ },
+ {
+  "nazev": "Pracovné právo",
+  "body": [
+   "pracovné zmluvy a dohody o prácach mimo pracovného pomeru",
+   "skončenie pracovného pomeru",
+   "nevyplatenie mzdy, pracovný úraz",
+   "náhrada škody podľa Zákonníka práce",
+   "interné smernice a pracovné poriadky",
+   "zastupovanie v pracovnoprávnych sporoch"
+  ]
+ },
+ {
+  "nazev": "Správne právo",
+  "body": [
+   "podania správnym orgánom, žiadosti, odvolania",
+   "priestupkové, územné a stavebné konanie",
+   "živnostenský register, colné a daňové konanie",
+   "správne súdnictvo – žaloby proti rozhodnutiam orgánov verejnej správy"
+  ]
+ },
+ {
+  "nazev": "Trestné právo",
+  "body": [
+   "zastupovanie obvineného a obžalovaného",
+   "zastupovanie poškodeného v adhéznom konaní",
+   "zastupovanie odsúdeného",
+   "vypracovanie trestných oznámení",
+   "obhajoba vo všetkých štádiách trestného konania"
+  ]
+ },
+ {
+  "nazev": "Obchodné právo",
+  "body": [
+   "zakladanie, zmeny a likvidácia spoločností",
+   "zápisy do obchodného registra",
+   "valné zhromaždenia, prevody podielov, fúzie",
+   "obchodnoprávne zmluvy a všeobecné obchodné podmienky",
+   "konkurzné a reštrukturalizačné konanie",
+   "zastupovanie v obchodnoprávnych sporoch"
+  ]
+ },
+ {
+  "nazev": "Vymáhanie pohľadávok",
+  "body": [
+   "predžalobná výzva, dohoda o splátkach, uznanie dlhu",
+   "uplatnenie pohľadávok súdnou cestou",
+   "správa, kúpa, predaj a postúpenie pohľadávok",
+   "dobrovoľná dražba a exekúcia"
+  ]
+ },
+ {
+  "nazev": "Ústavné právo",
+  "body": [
+   "spisovanie podaní Ústavnému súdu",
+   "zastupovanie klientov pred Ústavným súdom"
+  ]
+ }
+]

@@ -1,0 +1,161 @@
+{
+ "slug": "sk-mihalikova",
+ "zdroj_url": "https://www.advokat-mihalikova.sk",
+ "firma": "JUDr. Mária Miháliková",
+ "obor": [
+  "právo a poradenství",
+  "účetnictví a daně"
+ ],
+ "ico": "42066441",
+ "ares": null,
+ "kontakty": {
+  "emaily": [
+   "mihalikova@advokat-mihalikova.sk"
+  ],
+  "telefony": [
+   "907 363 875"
+  ],
+  "adresa": "",
+  "socialni_site": []
+ },
+ "logo": {
+  "soubor": "podklady/logo.png",
+  "zdroj": "https://www.advokat-mihalikova.sk/wp-content/uploads/2022/02/advokat-zilina.png",
+  "rozmery": [
+   898,
+   148
+  ]
+ },
+ "barvy": {
+  "css_promenne": {},
+  "z_css": [
+   "#e35656",
+   "#003388",
+   "#56c477",
+   "#ff6900",
+   "#2874fc",
+   "#9b51e0"
+  ],
+  "z_loga": [
+   "#d25f1c",
+   "#4d1113",
+   "#c3282a"
+  ],
+  "theme_color": null,
+  "doporucene": [
+   "#d25f1c",
+   "#4d1113",
+   "#e35656",
+   "#003388"
+  ]
+ },
+ "fotky": [],
+ "fakta": [
+  {
+   "typ": "h3",
+   "text": "Advokátska kancelária Žilina",
+   "zdroj": "https://www.advokat-mihalikova.sk/"
+  },
+  {
+   "typ": "h3",
+   "text": "Adresa",
+   "zdroj": "https://www.advokat-mihalikova.sk/"
+  },
+  {
+   "typ": "h3",
+   "text": "Kontakty",
+   "zdroj": "https://www.advokat-mihalikova.sk/"
+  },
+  {
+   "typ": "h3",
+   "text": "Právne služby",
+   "zdroj": "https://www.advokat-mihalikova.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Advokát JUDr. Mária Miháliková so sídlom v Žiline poskytuje komplexné právne služby v rôznych odvetviach práva.",
+   "zdroj": "https://www.advokat-mihalikova.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Cieľom advokátskej kancelárie je profesionálnym prístupom dosiahnuť spokojnosť klienta v konkrétnej právnej veci. Dôraz sa pritom kladie na vybudovanie nevyhnutnej dôvery medzi advokátom a klientom spolu s dodržiavaním povinnosti zachovávať mlčanlivosť a zabezpečením ochrany informácií.",
+   "zdroj": "https://www.advokat-mihalikova.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Prioritou je záujem klienta dosiahnutý v súlade so zákonom a tento záujem má prednosť pred záujmami tretích osôb ako aj pred záujmami advokátky.",
+   "zdroj": "https://www.advokat-mihalikova.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Advokátka pri svojej činnosti spolupracuje s geodetmi, notármi, znalcami, účtovnými a daňovými poradcami.",
+   "zdroj": "https://www.advokat-mihalikova.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Advokátska kancelária sa nachádza v meste Žilina, avšak právne služby sú poskytované v rámci celého územia Slovenskej republiky.",
+   "zdroj": "https://www.advokat-mihalikova.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Právnik v Žiline/Pozemkový právnik/Trestný právnik/Rozvodový právnik",
+   "zdroj": "https://www.advokat-mihalikova.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Rodinné právo/Pracovné právo/Exekučné právo/Dedičské právo/ a ďalšie",
+   "zdroj": "https://www.advokat-mihalikova.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Hlavnými zásadami advokátskej kancelárie sú: Odbornosť  l  Diskrétnosť l  Flexibilita l  Hospodárnosť poskytovaných služieb l  Informovanosť klienta",
+   "zdroj": "https://www.advokat-mihalikova.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "JUDr. Mária Miháliková Pivovarská 8140/16 010 01 Žilina",
+   "zdroj": "https://www.advokat-mihalikova.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Termín stretnutia je potrebné dohodnúť si vopred emailom, telefonicky alebo cez kontaktný formulár.",
+   "zdroj": "https://www.advokat-mihalikova.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Mobil: (00 421) 907 363 875 E-mail: mihalikova@advokat-mihalikova.sk",
+   "zdroj": "https://www.advokat-mihalikova.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Obchodné právo Občianske právo Rodinné právo Pracovné právo Správne právo Ústavné právo Trestné právo",
+   "zdroj": "https://www.advokat-mihalikova.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "IČO 420 664 41, DIČ 1076199091, zapísaná v zozname SAK, číslo licencie 4922",
+   "zdroj": "https://www.advokat-mihalikova.sk/kontakt/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Vzdelanie: Právnická fakulta Trnavskej univerzity v Trnave (1999-2004); prax: odborný radca na právnom odbore Katastrálneho úradu v Žiline, advokátska koncipientka, advokátka",
+   "zdroj": "https://www.advokat-mihalikova.sk/advokatka/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Odmena: hodinová, paušálna, podielová (max. 20 % z hodnoty veci), tarifná podľa vyhlášky MS SR č. 655/2004 Z.z.",
+   "zdroj": "https://www.advokat-mihalikova.sk/cennik/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Oblasti práva: občianske, nehnuteľnosti, rodinné, pracovné, správne, trestné, obchodné, vymáhanie pohľadávok, ústavné",
+   "zdroj": "https://www.advokat-mihalikova.sk/pravne-sluzby/"
+  }
+ ],
+ "chybi": [
+  "fotky firmy/provozu/produktů (nalezeno 0, potřeba aspoň 6)",
+  "adresa / provozovna",
+  "fotky kancelárie / portrét advokátky (web žiadne nemá)"
+ ],
+ "popis_webu": ""
+}

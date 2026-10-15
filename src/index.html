@@ -1,0 +1,97 @@
+{% extends "_base.html" %}
+{% set titulek = 'Advokát Žilina – JUDr. Mária Miháliková' %}
+{% set cesta = '' %}
+{% block obsah %}
+<section class="uvod">
+  <div class="wrap uvod-grid">
+    <div>
+      <p class="stitek">Advokátska kancelária · Žilina</p>
+      <h1>Právne služby s dôrazom na dôveru a mlčanlivosť</h1>
+      <p class="perex">Komplexné právne služby v rôznych odvetviach práva. Kancelária sídli v Žiline, služby poskytuje v rámci celého územia Slovenskej republiky.</p>
+      <p class="cta"><a class="tlacitko" href="#kontakt">Napísať kancelárii</a> <a class="odkaz" href="#oblasti">Oblasti práva</a></p>
+      <p class="rychly"><a href="tel:+421907363875">{{ site.kontakt.telefon }}</a> · <a href="mailto:{{ site.kontakt.email }}">{{ site.kontakt.email }}</a></p>
+    </div>
+    <aside class="zasady" aria-label="Zásady kancelárie">
+      <h2>Zásady kancelárie</h2>
+      <ol role="list">
+        <li>Odbornosť</li><li>Diskrétnosť</li><li>Flexibilita</li><li>Hospodárnosť poskytovaných služieb</li><li>Informovanosť klienta</li>
+      </ol>
+    </aside>
+  </div>
+</section>
+<div class="listina"><div class="wrap"><span>Pivovarská 8140/16, 010 01 Žilina</span><span>Zapísaná v zozname SAK, licencia č. 4922</span><span>Služby v rámci celej Slovenskej republiky</span></div></div>
+
+<section class="sekce" id="oblasti">
+  <div class="wrap">
+    <h2 class="nadpis">Oblasti práva</h2>
+    <div class="spis">
+      {% for s in data.sluzby %}
+      <details class="oddiel"{% if loop.first %} open{% endif %}>
+        <summary><span class="cislo">{{ '%02d' % loop.index }}</span><span class="nazov">{{ s.nazev }}</span></summary>
+        <ul role="list">{% for b in s.body %}<li>{{ b }}</li>{% endfor %}</ul>
+      </details>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="sekce svetla" id="advokatka">
+  <div class="wrap dva">
+    <h2 class="nadpis">Advokátka</h2>
+    <div>
+      <h3>JUDr. Mária Miháliková</h3>
+      <dl class="zivotopis">
+        <dt>Vzdelanie</dt><dd>Právnická fakulta Trnavskej univerzity v Trnave (1999–2004)</dd>
+        <dt>Právna prax</dt><dd>Odborný radca na právnom odbore Katastrálneho úradu v Žiline · advokátska koncipientka · advokátka</dd>
+        <dt>Spolupráca</dt><dd>Pri svojej činnosti spolupracuje s geodetmi, notármi, znalcami, účtovnými a daňovými poradcami.</dd>
+      </dl>
+      <p class="citat">Prioritou je záujem klienta dosiahnutý v súlade so zákonom. Tento záujem má prednosť pred záujmami tretích osôb aj pred záujmami advokátky.</p>
+    </div>
+  </div>
+</section>
+
+<section class="sekce" id="odmena">
+  <div class="wrap dva">
+    <h2 class="nadpis">Odmena</h2>
+    <div>
+      <p>Odmena sa dohodne v každom jednotlivom prípade osobitne pred začatím poskytovania právnych služieb, podľa špecifík právnej veci.</p>
+      <ul role="list" class="odmena">
+        <li><strong>Hodinová odmena</strong> podľa počtu hodín účelne vynaložených na vybavenie veci</li>
+        <li><strong>Paušálna odmena</strong> za určité obdobie alebo za úplné vybavenie veci</li>
+        <li><strong>Podielová odmena</strong> ako podiel na hodnote veci, najviac 20 %</li>
+        <li><strong>Tarifná odmena</strong> podľa vyhlášky č. 655/2004 Z. z.</li>
+      </ul>
+      <p>Spôsoby určenia zmluvnej odmeny sa môžu kombinovať.</p>
+    </div>
+  </div>
+</section>
+
+<section class="sekce svetla" id="kontakt">
+  <div class="wrap dva">
+    <h2 class="nadpis">Kontakt</h2>
+    <div class="kontakt-grid">
+      <div>
+        <address>
+          <strong>JUDr. Mária Miháliková</strong><br>
+          {{ site.kontakt.adresa.ulice }}<br>{{ site.kontakt.adresa.psc }} {{ site.kontakt.adresa.mesto }}
+        </address>
+        <p><a href="tel:+421907363875">{{ site.kontakt.telefon }}</a><br><a href="mailto:{{ site.kontakt.email }}">{{ site.kontakt.email }}</a></p>
+        <p class="drobne">Termín stretnutia je potrebné dohodnúť si vopred e-mailom, telefonicky alebo cez kontaktný formulár.</p>
+        <p class="drobne">Zapísaná v zozname SAK, číslo licencie 4922 · IČO {{ site.ico }}</p>
+      </div>
+      <form class="formular" method="post" data-endpoint="" data-demo="1">
+        <label>Meno a priezvisko <input name="jmeno" autocomplete="name" required></label>
+        <label>E-mail <input name="email" type="email" autocomplete="email" required></label>
+        <label>Telefón <input name="telefon" type="tel" autocomplete="tel"></label>
+        <label>Predmet <input name="predmet"></label>
+        <label>Vaša správa <textarea name="zprava" rows="5" required></textarea></label>
+        <div class="past" aria-hidden="true"><label>Nevyplňovať <input name="_gotcha" tabindex="-1" autocomplete="off"></label></div>
+        <input type="hidden" name="_subject" value="{{ site.formular.predmet }}">
+        <p class="drobne">Odoslaním formulára dávate súhlas so spracovaním Vašich osobných údajov.</p>
+        <button type="submit">Odoslať správu</button>
+        <p class="formular-stav" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+  </div>
+</section>
+{% endblock %}
