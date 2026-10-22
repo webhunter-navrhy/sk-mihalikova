@@ -2,9 +2,9 @@
  {
   "nazev": "Občianske právo",
   "body": [
-   "príprava a posudzovanie zmlúv (kúpna, darovacia, nájomná, o dielo, o pôžičke)",
-   "dedičské konanie, závet, dodatočné dedičské konanie",
-   "vysporiadanie podielového a bezpodielového spoluvlastníctva",
+   "príprava a posudzovanie zmlúv (kúpna, zámenná, darovacia, nájomná, o dielo, o pôžičke)",
+   "dedičské konanie, dedičská zmluva, dodatočné dedičské konanie",
+   "vysporiadanie podielového spoluvlastníctva a spoločného imania manželov",
    "náhrada škody, ochrana osobnosti, bezdôvodné obohatenie",
    "autorské a licenčné zmluvy",
    "zastupovanie v súdnych a exekučných konaniach"
@@ -80,13 +80,6 @@
    "uplatnenie pohľadávok súdnou cestou",
    "správa, kúpa, predaj a postúpenie pohľadávok",
    "dobrovoľná dražba a exekúcia"
-  ]
- },
- {
-  "nazev": "Ústavné právo",
-  "body": [
-   "spisovanie podaní Ústavnému súdu",
-   "zastupovanie klientov pred Ústavným súdom"
   ]
  }
 ]
