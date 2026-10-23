@@ -26,10 +26,14 @@
     <h2 class="nadpis">Oblasti práva</h2>
     <div class="spis">
       {% for s in data.sluzby %}
-      <details class="oddiel"{% if loop.first %} open{% endif %}>
+      {% if s.body %}
+      <details class="oddiel">
         <summary><span class="cislo">{{ '%02d' % loop.index }}</span><span class="nazov">{{ s.nazev }}</span></summary>
         <ul role="list">{% for b in s.body %}<li>{{ b }}</li>{% endfor %}</ul>
       </details>
+      {% else %}
+      <div class="oddiel bez-bodov"><div class="sumar"><span class="cislo">{{ '%02d' % loop.index }}</span><span class="nazov">{{ s.nazev }}</span></div></div>
+      {% endif %}
       {% endfor %}
     </div>
   </div>
@@ -76,7 +80,7 @@
           {{ site.kontakt.adresa.ulice }}<br>{{ site.kontakt.adresa.psc }} {{ site.kontakt.adresa.mesto }}
         </address>
         <p><a href="tel:+421907363875">{{ site.kontakt.telefon }}</a><br><a href="mailto:{{ site.kontakt.email }}">{{ site.kontakt.email }}</a></p>
-        <p class="drobne">Termín stretnutia je potrebné dohodnúť si vopred e-mailom, telefonicky alebo cez kontaktný formulár.</p>
+        <p class="drobne">Termín stretnutia je potrebné si dohodnúť vopred e-mailom, telefonicky alebo cez kontaktný formulár.</p>
         <p class="drobne">Zapísaná v zozname SAK, číslo licencie 4922 · IČO {{ site.ico }}</p>
         <iframe class="mapa" title="Mapa: Pivovarská 8140/16, Žilina" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.openstreetmap.org/export/embed.html?bbox=18.7380%2C49.2213%2C18.7460%2C49.2253&amp;layer=mapnik&amp;marker=49.2233881%2C18.7420666"></iframe>
         <p class="drobne"><a href="https://www.openstreetmap.org/?mlat=49.2233881&amp;mlon=18.7420666#map=18/49.2233881/18.7420666" rel="noopener">Zobraziť väčšiu mapu</a></p>

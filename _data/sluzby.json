@@ -3,7 +3,7 @@
   "nazev": "Občianske právo",
   "body": [
    "príprava a posudzovanie zmlúv (kúpna, zámenná, darovacia, nájomná, o dielo, o pôžičke)",
-   "dedičské konanie, dedičská zmluva, dodatočné dedičské konanie",
+   "dedičské konanie, dedičská zmluva, dodatočné prejednanie dedičstva",
    "vysporiadanie podielového spoluvlastníctva a spoločného imania manželov",
    "náhrada škody, ochrana osobnosti, bezdôvodné obohatenie",
    "autorské a licenčné zmluvy",
@@ -18,7 +18,7 @@
    "žaloby o určenie vlastníckeho práva, o vypratanie nehnuteľnosti",
    "spoločenstvá vlastníkov bytov, správa bytového domu",
    "vecné bremená, predkupné právo, záložné zmluvy",
-   "posúdenie právneho stavu pozemkov"
+   "posúdenie právneho stavu pozemkov a ich vysporiadanie aj s neznámymi vlastníkmi"
   ]
  },
  {
@@ -40,17 +40,17 @@
    "nevyplatenie mzdy, pracovný úraz",
    "náhrada škody podľa Zákonníka práce",
    "interné smernice a pracovné poriadky",
-   "zastupovanie v pracovnoprávnych sporoch"
+   "zastupovanie v pracovnoprávnych sporoch",
+   "neplatnosť výpovede"
   ]
  },
  {
-  "nazev": "Správne právo",
-  "body": [
-   "podania správnym orgánom, žiadosti, odvolania",
-   "priestupkové, územné a stavebné konanie",
-   "živnostenský register, colné a daňové konanie",
-   "správne súdnictvo – žaloby proti rozhodnutiam orgánov verejnej správy"
-  ]
+  "nazev": "Stavebné právo",
+  "body": []
+ },
+ {
+  "nazev": "Daňové právo",
+  "body": []
  },
  {
   "nazev": "Trestné právo",
@@ -74,11 +74,11 @@
   ]
  },
  {
-  "nazev": "Vymáhanie pohľadávok",
+  "nazev": "Vymáhanie dlhu",
   "body": [
    "predžalobná výzva, dohoda o splátkach, uznanie dlhu",
    "uplatnenie pohľadávok súdnou cestou",
-   "správa, kúpa, predaj a postúpenie pohľadávok",
+   "platobný rozkaz",
    "dobrovoľná dražba a exekúcia"
   ]
  }
